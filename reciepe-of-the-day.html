@@ -42,6 +42,21 @@
         search();
     });
 
+    let response = getData(`https://themealdb.com/api/json/v1/1/random.php`);
+
+    response
+        .then((res) => {
+
+            console.log('res:',res);
+            append(res);
+
+        })
+        .catch((err) => {
+            
+            console.log(err);
+
+        })
+
 
     
         

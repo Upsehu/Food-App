@@ -2,9 +2,10 @@ function navbar(){
 
     return `<h3><a href="index.html">Home</a></h3>
     <div id="input">
-        <input class='align-bottom' type="text" placeholder="Search for meal" id='query'    > 
-        <button class='align-bottom' onclick="navbar()">Search</button>
+        <input type="text" placeholder="Search for meal" id='query'    > 
+        <button>Search</button>
     </div>
+
     <div id="options">
 
         <h3><a href="reciepe-of-the-day.html">Receipe of the Day</a></h3>

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/styles/navbar.css">
 </head>
 <body>
-    <div id="nav">
+    <div id="navbar">
         
     </div>
 
@@ -23,8 +23,9 @@
     import navbar from '/components/navbar.js';
     import {search, getData, append} from '/scripts/showData.js'
     
+    let timeId = '';
 
-    let navbar_div = document.getElementById('nav');
+    let navbar_div = document.getElementById('navbar');
 
     navbar_div.innerHTML = navbar();
 
