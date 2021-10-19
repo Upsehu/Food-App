@@ -1,0 +1,40 @@
+#nav{
+
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+    padding-left: 4%;
+    padding-right: 4%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+#input{
+
+    padding-top: 20px;
+
+}
+
+#options{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#options h3{
+
+    padding-left: 30px;
+    padding-right: 10px;
+
+}
+#container{
+
+    display: grid;
+    grid-template-columns: repeat(4, 25% );
+    grid-gap: 20px;
+    justify-content: center;
+    padding: 5%;
+}
